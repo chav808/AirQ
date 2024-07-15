@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 from streamlit_folium import folium_static
 import folium
+import streamlit_folium
 import plotly.express as px
 
 
