@@ -8,6 +8,8 @@ api_key = "3841c728-6af6-4ad7-8036-6b1c48ebe288"
 
 st.title("Weather and Air Quality Web App")
 st.header("Streamlit and AirVisual API")
+st.markdown("<p style='font-size:14px;'>Please be cautious of an AQI over 100.</p>", unsafe_allow_html=True)
+
 
 @st.cache_data
 def map_creator(latitude, longitude):
