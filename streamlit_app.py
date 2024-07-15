@@ -8,7 +8,7 @@ api_key = "3841c728-6af6-4ad7-8036-6b1c48ebe288"
 
 st.title("Weather and Air Quality Web App")
 st.header("Streamlit and AirVisual API")
-st.markdown("<p style='font-size:14px;'>Please be cautious of an AQI over 100.</p>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:14px;color:#eb4222;'><b>Please avoid outdoor exercise in > 150 AQI.</b></p>", unsafe_allow_html=True)
 
 
 @st.cache_data
