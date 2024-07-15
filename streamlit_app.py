@@ -4,6 +4,7 @@ from streamlit_folium import folium_static
 import folium
 import plotly.express as px
 
+
 api_key = "3841c728-6af6-4ad7-8036-6b1c48ebe288"
 
 st.title("Weather and Air Quality Web App")
